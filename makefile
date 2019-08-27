@@ -1,9 +1,9 @@
-PDFS = medinfo.pdf
+PDFS = Readme.pdf
 
 .PHONY: all clean
 all: $(PDFS)
 
-%.pdf: %.txt
+%.pdf: %.md
 	pandoc -o $@ $<
 
 clean:
