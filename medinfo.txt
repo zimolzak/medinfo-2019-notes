@@ -71,7 +71,7 @@ AI in Medicine
 ========
 
 Tze Yun Leong. CS at Nat Uni Singapore, and AI Singapore. Keynote.
-2019-08-27 10:20.
+2019-08-27 10:20. leongty@nus.edu.sg
 
 Her first paper[^hfp]. A seminal paper[^asp]. Her thesis[^ht]. Hx of
 AI: clinician centric --> pt centric (present) --> shared (future).
@@ -142,6 +142,10 @@ Currently we're mainly training AI scientists and engineers. Not so
 much users[^gat].
 
 [^gat]: Leong TY. Growing AI Talent in Singapore: A Proposal (Draft).
+
+Q: dangerously, devs think it's easy to improve healthcare w/ AI. Q:
+AI changes people? Lose capabilities if we use AI? A: Sure, look at
+Google Maps. Also people can trust AI system too much.
 
 
 
