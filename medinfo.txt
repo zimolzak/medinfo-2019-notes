@@ -151,20 +151,42 @@ Google Maps. Also people can trust AI system too much.
 
 
 
-Exposome
-========
 
-2019-08-27 11:50
-
-DS ML Competencies
-========
-
-2019-08-27 11:50
 
 Data Interop and Integration
 ========
 
-2019-08-27 14:10
+Standard genetic report
+--------
+
+Teja Radke. 2019-08-27 14:10. Hochshule Niederrhein.
+
+Not discussing: the one true coding. Yes discussing: how current
+situation hampers secondary use. Project is called "GENeALYSE". NGS
+data + (loinc hl7 fhir, snomed-cd) + ncbi = CDA document. Reports vary
+a lot (see photo), and put different things in different parts:
+results, which genes, which methods, and where do they put "further
+info." Plus, often methods are very briefly summarized. Results: sex
+is missing from 17.5%, consent missing 88.9%, what happens to material
+missing 96.6%. **Q:** interp on the report, from the clin oncologist
+POV? US mandates that interp is included but interps are often not so
+great; variability. **A:** Idea is basic data, all the data needed for
+retrospec study, are stored somewhere.
+
+Query translation AQL, CQL
+--------
+
+Georg Fette
+
+Integrated data strategy
+--------
+
+Adam McLeod
+
+Interactive machine learning
+--------
+
+Nate Fillmore
 
 Processing clinical narratives
 ========
