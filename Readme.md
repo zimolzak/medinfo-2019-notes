@@ -314,3 +314,8 @@ Deep learning for colorectal cancer detection in EHR
 
 Deep learning for gait analysis in Huntington
 --------
+
+**Simon K. Poon**. Few cases, using convol neural net. somewhat trying
+to limit down features (not improve acc necessarily). In handwriting
+example, interlocking pentagons can turn into graph of pen speed over
+time.
