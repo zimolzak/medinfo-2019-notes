@@ -176,7 +176,23 @@ retrospec study, are stored somewhere.
 Query translation AQL, CQL
 --------
 
-Georg Fette
+Georg Fette.
+
+AQL = Archetype Query Language, CQL = Clinical Quality Language. As
+you know, i2b2 has SHRINE, and each D Warehouse in a SHRINE instance
+has its own "query distributor" system. CQL is something that could be
+used for FHIR systems. And AQL query is what the user creates. If you
+want to do federated query among DW of different types, maybe
+translate your openEHR (or any non-i2b2 DWs) into i2b2 and thus use
+SHRINE for all[^haar]. But Fette says **translate the query instead of
+translatting the data.** See other paper for translating AQL to
+i2b2[^fet].
+
+[^haar]: Haarbrandt et al, JBI 2016, Automated population of an
+i2b2....
+
+[^fet]: Query Translation Between openEHR and i2b2. Stud Health
+Technol Inform. 2019;258:16-20. PMID: 30942705.
 
 Integrated data strategy
 --------
