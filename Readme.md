@@ -232,14 +232,42 @@ signed off on collection & storage of data.
 Interactive machine learning
 --------
 
-Nate Fillmore
+Nate Fillmore.
 
-Processing clinical narratives
+LR LASSO, RF, SVM. Web app front end JavaScript, back end Java. VA
+regs are a constraint. Peer sharing of lab groupers. **Q:**
+understanding process. What if 2 diff people have same starting
+string, and only one has done the adjud? Or if they have different
+target concepts. **A:** Can start from scratch or use someone else's.
+**Q:** Why VA not requiring all hosps properly encode. ONC specifies.
+**A:** Well, good question. **Q:** What's percent of clean coding?
+**Q:** how ensure data qual / coding is correct? Or prove the
+predicted annotations are valid? **A:** Level of effort depends on
+purpose. Sometimes look thru each machine recommendation. Sometimes
+just approve them.
+
+
+
+
+Phenotyping 1
 ========
 
 2019-08-27 16:30
 
-Phenotyping
-========
+Multi view bayes net for alzheimer
+--------
 
-2019-08-27 16:30
+**Tze Yun Leong.**
+
+Multimodal behavior for mild cogn impairment
+--------
+
+**Kaoru Shinkawa.**
+
+Deep learning for colorectal cancer detection in EHR
+--------
+
+**Yu-Hsiang Wang.**
+
+Deep learning for gait analysis in Huntington
+--------
