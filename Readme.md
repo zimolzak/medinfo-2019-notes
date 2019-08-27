@@ -186,7 +186,17 @@ want to do federated query among DW of different types, maybe
 translate your openEHR (or any non-i2b2 DWs) into i2b2 and thus use
 SHRINE for all[^haar]. But Fette says **translate the query instead of
 translatting the data.** See other paper for translating AQL to
-i2b2[^fet].
+i2b2[^fet]. Results: some constraints on what queries can/cannot be
+translated successfully: like, source query needs to use only booleans
+or comparators that are present in the destination language.
+
+https://gitlab2.informatik.uni-wuerzburg.de/gef18bg/cdw_querymapper
+
+**Q:** How to handle it if openEHR or i2b2 changes the underlying
+model? **A:** If you have more than minor DW diffs, would have to
+define that graph transformation. **Q:** What about data that comes
+back from each query; must be different; how to handle? **A:** Current
+goal is put openEHR / FHIR facade on the front.
 
 [^haar]: Haarbrandt et al, JBI 2016, Automated population of an
 i2b2....
@@ -194,10 +204,30 @@ i2b2....
 [^fet]: Query Translation Between openEHR and i2b2. Stud Health
 Technol Inform. 2019;258:16-20. PMID: 30942705.
 
-Integrated data strategy
+Integrated data strategy: POLAR
 --------
 
-Adam McLeod
+Adam McLeod. Outcome Health (Melbourne). @AdamCMcLeod
+
+Aus has a good healthcare system, but not good at using standards. Fed
+funds medicare, and money gets to GP; states (6 of them, and there are
+some territories too) fund hospitals and community health. Diff
+funding causes some problems. For example, want to get data from the
+GPs. PHN Primary Health Networks do that by giving back to the GPs a
+view of their own data, which clin system vendors don't do very well.
+POpulation Level Analytics and Reporting = POLAR. 3 flavors: GP, PHN,
+AURORA RESEARCH. What does each flavor consumer want? Researchers want
+analytic data set basically, and not so much want to use BI tool
+rather than explore on own. Aus also has issues with "is it secondary
+or primary use of data?" **Q:** Who pays? **A:** GPs don't pay. The
+PHNs pay for a license & that gets POLAR to the GPs. New PIP Qual
+Improvement Payment, up to $50k AUS, for certain key data elements
+like BMI, how many DM pts have A1c in past *x* months, etc. **Q:**
+Evaluate impact of POLAR? **A:** PHNs do focus on certain areas like
+tracking CV disease over *x* months. **Q:** Do pts need to consent
+etc.? There is deident it seems, but is there reident risk? **A:** We
+have privacy laws but sort of outdated. College of GPs ethics group
+signed off on collection & storage of data.
 
 Interactive machine learning
 --------
